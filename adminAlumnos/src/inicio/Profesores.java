@@ -95,7 +95,7 @@ public class Profesores {
 		}
 		
 		System.out.println("\n\n\n\n");
-		System.out.println("------------------Listado de Profesores----------------");
+		System.out.println("------------------Listado de Profesores--------------------------");
 		System.out.println("");
 		System.out.println("--------|---------|-----------|-------------|--------------------");
 		System.out.println("   id   | nombre  | apellido  |   dni       |      email         ");

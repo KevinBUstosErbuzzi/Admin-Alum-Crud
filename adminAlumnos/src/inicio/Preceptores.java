@@ -93,13 +93,14 @@ public class Preceptores {
 		
 			
 		System.out.println("\n\n\n\n");
-		System.out.println("------------------Listado de Preceptores----------------");
+		System.out.println("---------------------Listado de Preceptores----------------------");
 		System.out.println("");
-		System.out.println("--------|---------|-----------|---------------------");
-		System.out.println("  id    | nombre  | apellido  |       email         ");
+		System.out.println("--------|---------|-----------|-------------|--------------------");
+		System.out.println("   id   | nombre  | apellido  |   dni       |      email         ");
+		System.out.println("--------|---------|-----------|-------------|--------------------");
 		String outPrece=new String();
 		for (Preceptor Prece : listPrece) {
-			System.out.println("  " + Prece.getId() + "       " + Prece.getNombre() + "      " + Prece.getApellido() + "       " + Prece.getEmail());
+			System.out.println("  " + Prece.getId() + "       " + Prece.getNombre() + "      " + Prece.getApellido() + "       " + Prece.getDni() + "       "  + Prece.getEmail());
 		}
 		System.out.println("-------------------------------------------------------");
 		System.out.println("Ingrese un número para continuar");
